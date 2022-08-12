@@ -1,5 +1,4 @@
 let homeEl=document.getElementById("home-el")
-console.log(homeEl)
 let home = 18
 let guestEl=document.getElementById("guest-el")
 let guest = 16
@@ -31,4 +30,10 @@ function add5(){
 function add6(){
  guest += 3
   guestEl.innerText = guest
+}
+function reset(){
+ guest = 0
+ home =0
+ guestEl.innerText = guest
+ homeEl.innerText = home
 }

@@ -60,3 +60,6 @@ button {
   margin-top: 54px;
   font-family: timer;
 }
+#button-el{
+  width: 75px;
+}
